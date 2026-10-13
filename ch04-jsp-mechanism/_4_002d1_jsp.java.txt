@@ -1,0 +1,27 @@
+// 4-1.jsp가 변환된 서블릿 소스(일부, 교재 참고용 — 실행 파일 아님)
+// 위치: [이클립스작업공간]\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\work\Catalina\localhost\HelloJSP\org\apache\jsp
+package org.apache.jsp;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
+import jakarta.servlet.jsp.*;
+public final class _4_002d1_jsp
+    extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+    // (생략)
+    public void _jspService(final jakarta.servlet.http.HttpServletRequest request,
+                            final jakarta.servlet.http.HttpServletResponse response)
+            throws java.io.IOException, jakarta.servlet.ServletException {
+        // (생략)
+        out.write("\r\n");
+        out.write("<html>\r\n");
+        out.write("<body> \r\n");
+        String str = "Hello, JSP!";
+        out.write("\r\n");
+        out.write("<h3>");
+        out.print( str );
+        out.write("</h3>\r\n");
+        out.write("</body>\r\n");
+        out.write("</html>");
+        // (생략)
+    }
+}

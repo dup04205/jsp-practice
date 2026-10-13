@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Tue, 15 Jul 2026 11:00:00 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Type: text/html; charset=UTF-8
+Content-Length: 85
+Connection: close
+
+<html>
+  <head><title>Hello</title></head>
+  <body><h1>Hello, World!</h1></body>
+</html>
