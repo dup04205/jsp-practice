@@ -26,6 +26,7 @@
 | `ch13-expression-language` | 13강 표현 언어 | EL 연산자, EL 내장 객체, 자바빈과 EL | HelloJSP |
 | `ch14-jstl` | 14강 JSTL | c:set, c:if, c:choose, c:forEach, c:import, c:url, c:out, c:catch, fn | HelloJSP |
 | `ch15-member-system` | 15강 회원관리 시스템 | member2 테이블, 회원가입·로그인·수정·탈퇴 | MemberManager |
+| `homework` | 과제물 | 학번·이름 및 현재 날짜와 시각 출력 (`time.jsp`) | jsp_homework |
 
 ## 실행 방법(이클립스)
 
